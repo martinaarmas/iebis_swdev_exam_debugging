@@ -3,6 +3,10 @@
 ![debug](https://hackernoon.com/hn-images/0*PjHq4AuTbMjXz7Gq.jpg)
 
 The first bug was fixed in class by replacing "." with "\\."
+     
+     public static void main(String[] args) {
+        String emailAddress = "john.doe.mis2016@ie.edu";
+        String formattedEmailAddress = emailAddress.replaceAll("\\.", "/");
 
 ## Second bug
 
@@ -80,3 +84,4 @@ Applying a switch statement has rules, which this code isn't following
         }
 [Source](https://www.tutorialspoint.com/java/switch_statement_in_java.htm)
 
+##### By: Martina Armas B.
