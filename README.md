@@ -20,6 +20,7 @@ The boundary of the random function was set to 2
 
 The random fuction should be stated in the following manner:
 >>java.util.Random.nextInt
+
 >>new Random().nextInt((max-min+1))+min
 
 The max is 2
