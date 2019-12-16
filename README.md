@@ -1,7 +1,8 @@
-### iebis_swdev_exam_debugging
+### Debugging Final exam 2019
 # SOLUTION
 ![debug](https://hackernoon.com/hn-images/0*PjHq4AuTbMjXz7Gq.jpg)
 
+## First bug
 The first bug was fixed in class by replacing "." with "\\."
      
      public static void main(String[] args) {
