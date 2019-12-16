@@ -8,9 +8,9 @@ The first bug was fixed in class by replacing "." with "\\."
 Using a breakpoint I realized that the word variable remains null after declaring it an filling it up with strings. This happens because:
 
 
-**Single quotes('')** are used for literal characters, like: char c = 'myChar'
+* **Single quotes('')** are used for literal characters, like: char c = 'myChar'
 
-**Double quotes("")** are used for for literal strings, like: string t = “myTotal”
+* **Double quotes("")** are used for for literal strings, like: string t = “myTotal”
 
 
 This is why the String wasn't assimilating the inputs as the strings required.
