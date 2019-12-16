@@ -1,5 +1,6 @@
 ### iebis_swdev_exam_debugging
 # SOLUTION
+![debug](https://hackernoon.com/hn-images/0*PjHq4AuTbMjXz7Gq.jpg)
 
 The first bug was fixed in class by replacing "." with "\\."
 
