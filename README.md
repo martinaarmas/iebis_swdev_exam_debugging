@@ -42,9 +42,10 @@ Applying a switch statement has rules, which this code isn't following
   * When a break statement is reached, the switch terminates, and the flow of control jumps to the next line following the switch statement.
   * Not every case needs to contain a break. If no break appears, the flow of control will fall through to subsequent cases until a break is reached.
   
-  switch (random.nextInt(3))
+ 
   
-        {
+        switch (random.nextInt(3))
+           {
         
             case 0:
             
@@ -63,8 +64,8 @@ Applying a switch statement has rules, which this code isn't following
 
  As there are no breaks in this switch part, the flow keeps going until the function gets to the end. It should be like this:
  
-  switch (random.nextInt(3))
-  
+ 
+    switch (random.nextInt(3))
         {
             case 0:
                 word = new StringBuffer("Y");
